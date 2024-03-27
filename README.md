@@ -62,7 +62,7 @@ All the following commands will be run from this directory unless otherwise stat
 - The FuseSoC standard library already contain a version of SERV, but if we want to make changes to SERV, run the bundled example or use the Zephyr support, it is better to add SERV as a separate library into the workspace
 
 
-        $ fusesoc library add serv https://github.com/olofk/serv
+        $ fusesoc library add serv https://github.com/YiminGao0113/serv
     >:warning: The SERV repo will now be available in `$WORKSPACE/fusesoc_libraries/serv`. We will refer to that directory as `$SERV`.
 - Install latest version of [Verilator](https://www.veripool.org/wiki/verilator)
 - (Optional) To support RISC-V M-extension extension, Multiplication and Division unit (MDU) can be added included into the SERV as a seprate library.
